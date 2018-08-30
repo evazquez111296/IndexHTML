@@ -1,0 +1,25 @@
+#imgPresentacion{
+  /**width:15%;
+  */
+  width: 20%;
+}
+.imgRedonda{
+  border-radius: 50%;
+}
+.divImagen{
+  width: 50%;
+}
+.divPresentacion{
+  text-align:center;
+  width: 50%;
+}
+.principal{
+  display: inline-flex;
+  height: 12%;
+  background: linear-gradient(to bottom right,#cfe5fa, white);/*Etiqueta standar*/
+  /**
+  * linear-gradient hace referencia a un degradado lineal
+  * el primer parametro es el color de inicio y el segundo
+  * parametro indica en que color terminara el degradado
+  **/
+}
