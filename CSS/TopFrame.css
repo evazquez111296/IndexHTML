@@ -18,11 +18,11 @@
   background: linear-gradient(to bottom right,#cfe5fa, white);/*Etiqueta standar*/
 }
 .desplegar{
-  background:linear-gradient(to bottom right,#cfe5fa, white);
+  background:linear-gradient(to top right,#cfe5fa, white);
  /* W3C */
 }
 .indice{
-  background: linear-gradient(to bottom left,#cfe5fa, white);/*Etiqueta standar*/
+  background: linear-gradient(to top left,#cfe5fa, white);/*Etiqueta standar*/
 }
 .titulo{
   display: inline;
