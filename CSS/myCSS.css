@@ -1,0 +1,24 @@
+.ParrafoJustificado{
+  /**
+  * Se crea una nueva regla CSS en el archivo myCSS.css
+    la cual solo afectara a los elementos cuyo selector de
+    clase sea igual a "ParrafoJustificado" se puede interpretar
+    como: "Cualquier elemento de la pagína cuyo atributo class sea igual a
+    ParrafoJustificado"
+  **/
+  text-align:justify;
+  /**
+  * La propiedad text-align establece la alineación de los
+  * contenidos dentro de un elemento.
+  * Se le pone el valor 'justify' para que justifique el contenido.
+  ***/
+}
+
+.ParrafoNegCenter{
+  text-align:center;/**El contenido lo centramos**/
+  font-weight:bold;
+  /**La propiedad font-weight permite establecer el
+  grosor con el que se muestran las letras del texto.
+  El valor 'bold' las muestra en negritas.
+  **/
+}

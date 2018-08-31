@@ -1,7 +1,7 @@
 #imgPresentacion{
   /**width:15%;
   */
-  width: 20%;
+  width: 23%;
 }
 .imgRedonda{
   border-radius: 50%;
@@ -13,9 +13,22 @@
   text-align:center;
   width: 50%;
 }
-.principal{
-  display: inline-flex;
-  height: 12%;
+
+.infoAlumno{
+  background: linear-gradient(to bottom right,#cfe5fa, white);/*Etiqueta standar*/
+}
+.desplegar{
+  background:linear-gradient(to bottom right,#cfe5fa, white);
+ /* W3C */
+}
+.indice{
+  background: linear-gradient(to bottom left,#cfe5fa, white);/*Etiqueta standar*/
+}
+.titulo{
+  display: inline;
+  background: linear-gradient(to bottom left,#cfe5fa, white);/*Etiqueta standar*/
+}
+.foto{
   background: linear-gradient(to bottom right,#cfe5fa, white);/*Etiqueta standar*/
   /**
   * linear-gradient hace referencia a un degradado lineal

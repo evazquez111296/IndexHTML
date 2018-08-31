@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Top Pane</title>
+    <meta name="author" content="Eduardo Vázquez Martínez" />
+    <meta name="description" content="Página que mostrar el tema relacionado con los caracteres extendidos"/>
+    <meta name="keywords" content="caracteres,extendidos"/>
+    <link rel="stylesheet" href="CSS/TopFrame.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/myCSS.css" type="text/css"/>
+    <!--La línea anterior enlaza la hoja de estilos externa que se definio-->
+  </head>
+  <body class="desplegar">
+    <ol type="1">
+      <!--El atributo type='1' indica que los elementos
+          de la lista se numerarán con números
+      -->
+      <li>
+        Introducción
+        <p class="ParrafoJustificado">
+          <!--Se agrega un selector de clase cuyo nombre es 'ParrafoJustificado'-->
+          El estándar ASCII en realidad sólo define códigos
+          para los primeros 128 números posibles esto es así porque
+          en aquel entonces la mayoría de computadoras usaban enteros
+          de 7 bits, con un bit (opcional) de redundancia.
+          Pero luego la gran mayoría de computadoras usaron enteros
+          de 8 bits, y quedaron 128 nuevas posiciones “libres”, que cada creador
+          de sistemas operativos o programas de edición de texto decidió usar
+          como bien quiso. Esos códigos, del 128 al 255, son el “ASCII extendido”.
+          <p class="ParrafoNegCenter">
+            "El español es un lenguaje que por suerte o por desgracia posee caracteres
+            especiales tales como tildes, ñ, diéresis (ü). "
+          </p>
+          Si no se especifica una codificación de caracteres al momento de crear
+          el documento html, las ñ, tildes, diéresis y otros caracteres apareceran
+          de una manera rara.
+
+          Hasta el momento no se a especificado un tipo de codificación y no
+          se an ocupado los caracteres extendidos.
+          Google Chrome automaticamente mapea estos caracteres a su código
+          extendido, a diferencia de Firefox
+          <figure>
+            <!--
+            La etiqueta<figure>tiene un papel principalmente semántico.
+            Esto significa que le dice al ordenador que la imagen tiene un
+            significado y que es importante para la comprensión del texto.
+            Esto puede permitir a un programa recuperar todas las figuras del
+            texto mencionarlas en una tabla de figuras, por ejemplo.
+            -->
+            <img src="Imagenes/CaracterExtendidoFirefoxError.png" width="100%"/>
+            <figcaption>
+              <!--La etiqueta <figcaption> se utiliza para introducir
+                  una leyenda a la Imagenen
+              -->
+              <p class="ParrafoNegCenter">
+                De esa manera se visualizaría la página en Firefox si no se
+                especifica una codificación o si no se utilizan los caractes extendidos 
+              </p>
+            </figcaption>
+          </figure>
+        </p>
+
+      </li>
+    </ol>
+  </body>
+</html>
